@@ -8,6 +8,7 @@ body {
     font-family: "Montserrat";
     color: #BC97FF;
     font-size: 2rem;
+    font-weight: 500;
     padding: 2.5rem;
     background-color: black;
     
@@ -16,10 +17,6 @@ body {
 a {
     color:inherit;
     text-decoration: none;
-    position: fixed;
-    margin-top: auto;
-    margin-bottom: auto;
-
 }
 
 h1 {
@@ -35,11 +32,24 @@ img {
     height: auto;
 }
 
-.pulssx {
-    width: 45%;
+li {
+    list-style: none;
+    border: 2px solid #BC97FF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 7px;
 }
 
-.pulsdx {
-    width: 45%;
-    float: right;
+ul {
+    padding-left: 0px;
+}
+
+li:hover {
+    background-color: #BC97FF;
+}
+
+a:hover {
+    color: black;
 }

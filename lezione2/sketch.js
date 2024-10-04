@@ -15,7 +15,7 @@ function draw() {
    strokeWeight("10");
    circle(300, 75, 100);
    //prato, prima della forma desiderata devo cambiare fill
-   // e stroke 
+   //e stroke 
    fill("green");
    stroke("darkgreen");
    strokeWeight(5);
