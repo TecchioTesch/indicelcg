@@ -1,6 +1,17 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  margin: 0; /* Rimuove eventuali margini predefiniti */
 }
 
 canvas {

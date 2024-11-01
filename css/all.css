@@ -6,12 +6,19 @@ html {
 
 body {
     font-family: "Montserrat";
-    color: #BC97FF;
+    color: #dce2eb;
     font-size: 2rem;
     font-weight: 500;
     padding: 2.5rem;
-    background-color: black;
-    
+    background-color: rgba(30, 143, 191, 0.728);
+}
+
+p {
+    font-family: "Montserrat";
+    color: #dce2eb;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2.5rem;
 }
 
 a {
@@ -34,7 +41,7 @@ img {
 
 li {
     list-style: none;
-    border: 2px solid #BC97FF;
+    border: 2px solid #dce2eb;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -46,10 +53,7 @@ ul {
     padding-left: 0px;
 }
 
-li:hover {
-    background-color: #BC97FF;
-}
-
-a:hover {
-    color: black;
+li a:hover {
+    color: rgba(30, 143, 191, 0.728);
+    background-color: #dce2eb;
 }

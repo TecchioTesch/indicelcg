@@ -9,8 +9,8 @@ let elem;
 let dice = 1;
 
 function setup() {
-  elem = createElement("h2", "Keep rolling");
-  elem.position(0,0);
+  elem = createElement("p", "Keep rolling");
+  elem.position(100,100);
   createCanvas(400, 400);
   button = createButton("roll the dice");
   button.position(200, 200);
